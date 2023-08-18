@@ -1,0 +1,44 @@
+{
+  "shortDescription": "Astonishing sensitive information storage solution",
+  "longDescription": "Rosenv is a solution to store data without compromising security",
+  "features": [
+    {
+      "name": "Fast",
+      "description": "Rosenv"
+    },
+    {
+      "name": "Fast",
+      "description": "Rosenv"
+    },
+    {
+      "name": "Fast",
+      "description": "Rosenv"
+    },
+    {
+      "name": "Fast",
+      "description": "Rosenv"
+    }
+  ],
+  "action": {
+    "primary": {
+      "name": "Getting Started",
+      "url": "getting-started"
+    },
+    "secondary": {
+      "name": "Introduction",
+      "url": "introduction"
+    }
+  },
+  "navbar": [
+  ],
+  "sidebar": [
+    {
+      "name": "Introduction",
+      "url": "introduction"
+    },
+    {
+      "name": "Getting Started",
+      "url": "getting-started"
+    }
+  ]
+}

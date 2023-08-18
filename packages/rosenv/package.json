@@ -1,0 +1,49 @@
+{
+  "name": "rosenv",
+  "description": "astonishing sensitive information storage solution",
+  "version": "1.0.0",
+  "author": {
+    "name": "meslzy",
+    "email": "i@meslzy.com",
+    "url": "https://meslzy.com/"
+  },
+  "repository": "github:rosestack/rosenv",
+  "bugs": "https://github.com/rosestack/rosenv/issues",
+  "homepage": "https://rosestack.meslzy.com/rosenv",
+  "type": "module",
+  "main": "dist/rosenv.cjs.js",
+  "module": "dist/rosenv.esm.js",
+  "types": "dist/rosenv.d.ts",
+  "bin": "dist/bin.esm.js",
+  "exports": {
+    ".": {
+      "require": "./dist/rosenv.cjs.js",
+      "import": "./dist/rosenv.esm.js",
+      "types": "./dist/rosenv.d.ts"
+    }
+  },
+  "scripts": {
+    "dev": "rosepack -w",
+    "build": "rosepack",
+    "lint": "eslint source --ext .ts --fix"
+  },
+  "dependencies": {
+    "fast-glob": "^3.3.1",
+    "commander": "^11.0.0",
+    "prompts": "^2.4.2"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "rosestack",
+    "rosenv"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "mit",
+  "devDependencies": {
+    "@types/prompts": "^2.4.4"
+  }
+}

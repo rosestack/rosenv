@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "scripts": [],
+  "envs": [
+    {
+      "name": ".env",
+      "content": "50ab7ebb3a5e85d115280c728e920f58"
+    }
+  ]
+}
